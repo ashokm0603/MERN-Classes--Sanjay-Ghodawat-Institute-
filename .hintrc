@@ -3,7 +3,12 @@
     "development"
   ],
   "hints": {
-    "axe/parsing": "off",
-    "no-inline-styles": "off"
+    "axe/structure": [
+      "default",
+      {
+        "list": "off"
+      }
+    ],
+    "axe/text-alternatives": "off"
   }
 }

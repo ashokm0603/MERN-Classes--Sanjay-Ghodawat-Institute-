@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 align="center">Sample table</h1>
+    <hr>
+
+    <table align="center" bgcolor="red" border="1" cellspacing="0" cellpadding="10">
+        <tr>
+            <td>col-1</td>
+            <td>col-2</td>
+            <td>Col-3</td>
+        </tr>
+        <tr>
+            <td>col-4</td>
+            <td>col-5</td>
+            <td>col-6</td>
+        </tr>
+        <tr>
+            <td>col-7</td>
+            <td>col-8</td>
+            <td>col-9</td>
+        </tr>
+    </table>
+
+
+    <h1 align="center">IBM Employee Details</h1>
+    <hr>
+
+    <table align="center" border="1" cellpadding="10" cellspacing="0">
+
+        <colgroup>
+            <col span="1">
+            <col span="1" bgcolor="#009900">
+            <col span="2">
+            <col span="1"  bgcolor="#ffbb55">
+        </colgroup>
+
+        <thead>
+            <tr bgcolor="goldenrod">
+                <th>SlNo</th>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Phone</th>
+                <th>Role</th>
+                <th>Salary</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>01</td>
+                <td >sai</td>
+                <td>sai@ibm.com</td>
+                <td>98745612330</td>
+                <td rowspan="2">developer</td>
+                <td>850000</td>
+                <td>
+                    <button>Delete</button>
+                    <button>Edit</button>
+                </td>
+            </tr>
+
+            <tr>
+                <td>02</td>
+                <td>teja</td>
+                <td>teja@ibm.com</td>
+                <td>98745330</td>
+                <!-- <td>developer</td> -->
+                <td>75000</td>
+                <td>
+                    <button>Delete</button>
+                    <button>Edit</button>
+                </td>
+            </tr>
+            <tr>
+                <td>03</td>
+                <td>Rani</td>
+                <td>rani@ibm.com</td>
+                <td>9456745330</td>
+                <td>backend developer</td>
+                <td>83000</td>
+                <td>
+                    <button>Delete</button>
+                    <button>Edit</button>
+                </td>
+            </tr>
+            <tr>
+                <td>03</td>
+                <td>Rani</td>
+                <td>rani@ibm.com</td>
+                <td>9456745330</td>
+                <td>backend developer</td>
+                <td>83000</td>
+                <td>
+                    <button>Delete</button>
+                    <button>Edit</button>
+                </td>
+            </tr>
+            <tr>
+                <td>03</td>
+                <td>Rani</td>
+                <td>rani@ibm.com</td>
+                <td>9456745330</td>
+                <td>backend developer</td>
+                <td>83000</td>
+                <td>
+                    <button>Delete</button>
+                    <button>Edit</button>
+                </td>
+            </tr>
+
+        </tbody>
+        <tfoot>
+            <tr>
+                <th bgcolor="yellow" colspan="7">2026 &COPY; IBM Employee Details</th>
+            </tr>
+        </tfoot>
+    </table>
+
+</body>
+</html>

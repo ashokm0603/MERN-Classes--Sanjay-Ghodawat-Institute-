@@ -96,3 +96,34 @@ Attributes :
     ->All  html Elements contains Attributes
     EX: 
         <h1 align="center">  Good Evening  </h1>
+
+
+
+
+List In HTML : 
+-------------
+    ->List are used to display data in ordered or unordered way 
+
+    Types: 
+        1. Ordered List 
+            ->when ever we want to display data in ordered format like numberings , alphabets .romanNo 
+            -><ol> </ol> represent order list
+            -><ol></ol> tags no. of list items (<li></li>)
+
+            Order list Attributes: 
+            ---------------------
+                1. type : 1, a, A, i, I 
+                2. start 
+                3. reserved
+
+
+        2. unOrdered List 
+            ->when ever we want to display data in symbolic format like square , circle, disc  
+            -><ul> </ul> represent unOrdered list
+            -><ul></ul> tags no. of list items (<li></li>)
+            unOrdered list Attributes: 
+            ---------------------
+                1. type : none , disc , circle , square 
+
+        3. Description List 
+        3. Nested List 
