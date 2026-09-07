@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h2+h1 {
+            text-align: center;
+            color: magenta;
+        }
+
+        /* adjacent sibling selector */
+        ol+h1 {
+            color: maroon;
+            text-align: center;
+        }
+
+        /* child selector  */
+        ol>li {
+            font-size: 20px;
+            background-color: sandybrown;
+            margin: 10px;
+            font-style: italic;
+        }
+
+        /* descendant selector  */
+        ul p {
+            color: red;
+        }
+
+        /* general sibling selector  */
+        ul~h1 {
+            color: yellow;
+            text-shadow: 3px 3px 3px black;
+        }
+    </style>
+</head>
+
+<body>
+    <h2>Combinator Selectors</h2>
+    <h1>Ordered List</h1>
+    <ol>
+        <li>List items</li>
+        <li>List items</li>
+        <li>List items</li>
+        <li>List items</li>
+    </ol>
+
+    <h1>unordered List</h1>
+
+    <ul>
+        <li>
+            <p>this is paragraph present in unordered list 1st item</p>
+        </li>
+        <li>unordered list-1</li>
+        <li>
+            <p>this is paragraph present in unordered list3rd item</p>
+        </li>
+        <li>unordered list-2</li>
+    </ul>
+
+    <h1>Heading one</h1>
+
+    <h1>
+        <h1>
+            <p>para present in heading one</p>
+        </h1>
+    </h1>
+</body>
+
+</html>

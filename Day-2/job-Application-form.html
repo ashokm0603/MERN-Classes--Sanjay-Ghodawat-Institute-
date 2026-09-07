@@ -14,23 +14,28 @@
 
             <h2 align="center">HSBC Job Registration Form</h2>
             <label for="fname">First Name :</label>
-            <input type="text" id="fname" placeholder="Enter First Name">
+            <input type="text" maxlength="10" minlength="3" id="fname" required placeholder="Enter First Name">
 
             <br><br>
             <label for="lname">Last Name:</label>
-            <input type="text" id="lname" placeholder="Enter Last Name">
+            <input type="text" id="lname" required placeholder="Enter Last Name">
+
+            <br><br>
+
+            <label for="age">Age :</label>
+            <input type="number" min="18" max="30" id="age" placeholder="18">
 
             <br><br>
             <label for="email">Email:</label>
-            <input type="email" id="email" placeholder="Enter Email">
+            <input type="email" required id="email" placeholder="Enter Email">
 
             <br><br>
             <label for="phoneNo">Phone No:</label>
-            <input type="tel" id="phoneNo" placeholder="Enter Email">
+            <input type="tel" required id="phoneNo" placeholder="Enter phone">
 
             <br><br>
             <label for="dob">Date of Birth:</label>
-            <input type="date" id="dob">
+            <input type="date" required id="dob">
 
             <br><br>
             <label for="gender">Gender :</label>
@@ -41,7 +46,7 @@
 
             <br><br>
             <label for="state">State :</label>
-            <select id="state">
+            <select id="state" required>
                 <option value="">Choose State</option>
                 <option value="Karnataka">Karnataka</option>
                 <option value="Kerala">Kerala</option>
@@ -58,15 +63,14 @@
 
             <br><br>
             <label for="address">Address:</label>
-            <textarea placeholder="Enter Full Address" id="address"></textarea>
+            <textarea required placeholder="Enter Full Address" id="address"></textarea>
 
             <br><br>
             <label for="resume">Resume</label>
-            <input type="file" accept=".pdf" id="resume">
+            <input required type="file" accept=".pdf" id="resume">
 
             <br><br>
-            <input type="image" height="30" width="150"
-                src="https://png.pngtree.com/png-vector/20230527/ourmid/pngtree-3d-register-now-vector-png-image_7111488.png">
+            <button type="submit">Submit </button>
             <button type="reset">Cancel</button>
         </fieldset>
     </form>

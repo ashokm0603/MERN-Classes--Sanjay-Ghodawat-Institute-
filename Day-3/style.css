@@ -1,0 +1,10 @@
+fieldset {
+  border-radius: 20px;
+  width: 300px;
+  background-image: linear-gradient(red, orange);
+}
+h1 {
+  color: green !important;
+  text-align: center;
+  font-style: italic;
+}
