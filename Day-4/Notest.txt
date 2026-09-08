@@ -265,3 +265,44 @@ CSS selectors :
         3. Pseudo Class Selectors
         4. Pseudo Elements Selectors
         5. Attributes Selectors
+
+
+
+Text Properties : 
+-----------------
+    1. color 
+    2. text decoration Properties 
+            i. text-decoration-line 
+            ii. text-decoration-style 
+            iii. text-decoration-color 
+            iv .text-decoration-thickness
+            v. text-decoration       (short hand form)
+
+
+    3. text-align 
+    4. text-transform Properties
+    5. text overflow Properties 
+
+
+CSS Box model : 
+----------------
+    1. Padding 
+    2. border 
+    3. margin 
+
+
+Flex Properties : 
+-----------------
+    1. display :flex 
+    2. justify-content 
+    3. align-items 
+    4. flex-direction 
+    5. flex-warp
+
+    6. flex-grow 
+    7. flex-shrink
+    8. flex
+
+
+Grid Properties: 
+---------------

@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        form {
+            height: 100vh;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-image: url("https://t4.ftcdn.net/jpg/19/52/67/67/360_F_1952676783_ka8fIR0s9oK3PhyDdREk2KGcPD3f3YLK.jpg");
+            background-size: cover;
+        }
+
+        h1 {
+            margin-bottom: 30px;
+            color: aliceblue;
+            text-align: center;
+            font-style: italic;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        h1::first-letter {
+            color: red;
+            font-size: 70px;
+            text-shadow: 2px 2px 2px aliceblue;
+        }
+
+        label {
+            font-weight: bold;
+            color: aliceblue;
+        }
+
+        label:first-of-type::after {
+            content: "🙎🏻 * ";
+            color: red;
+            text-shadow: 2px 2px 2px aliceblue;
+        }
+
+        label::before {
+            content: "▶️";
+        }
+        label:last-of-type::after {
+            content: "🔐 *";
+            color: red;
+            text-shadow: 2px 2px 2px aliceblue;
+        }
+
+        fieldset {
+            box-shadow: 4px 4px 4px aliceblue;
+            border: none;
+            backdrop-filter: blur(30px);
+            padding: 30px;
+            border-radius: 10px 50px;
+            width: 300px;
+        }
+        div{
+            display: flex;
+            justify-content: center;
+        }
+        button{
+            padding: 5px; 
+            font-family: monospace;
+            font-weight: bold;
+            font-style: italic;
+            margin: 2px;
+        }
+        button:hover{
+            cursor: pointer;
+        }
+
+        p{
+            border: 1px solid black;
+            margin: 30px;
+            padding: 20px;
+        }
+        p::selection,  h1::selection{
+            color: brown;
+            background-color: burlywood;
+        }
+    </style>
+</head>
+
+<body>
+
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, aspernatur error. Itaque laboriosam qui nemo, nam sequi similique inventore maxime iure sunt, ipsam id tempora. Corporis velit recusandae aliquid eos.
+    </p>
+
+
+    <form action="">
+        <fieldset>
+            <h1>Sign-In Form</h1>
+            <label for="">Username</label>
+            <input type="text" placeholder="Enter Username">
+            <br><br>
+            <label for="">Password </label>
+            <input type="password" placeholder="Enter Password">
+            <br><br>
+
+            <div>
+                <button type="submit">Login</button>
+                <button type="reset">cancel</button>
+            </div>
+        </fieldset>
+    </form>
+</body>
+
+</html>
