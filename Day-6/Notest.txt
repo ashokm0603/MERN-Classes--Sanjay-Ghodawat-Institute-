@@ -1,0 +1,480 @@
+WEB APPLICATIONS : 
+------------------
+    ->Any Applications that will be run on browsers thats we called web Applications
+
+
+
+Web Page: 
+----------
+    ->HTML Document is called web pages 
+
+WEB SITE: 
+----------
+    ->Collections of web pages is called as web site 
+
+
+WEB SERVER : 
+------------
+    ->Collections of web Sites is called as web server 
+    ->Web server will understand only IP Address 
+
+
+HTML : 
+------
+    ->HTML stands for hyper text markup language used to build structure of the web page 
+    ->HTML will contains series of Elements 
+    ->Present of  HTML  is HTML 5 
+    
+
+HTML boiler plat /HTML structure: 
+---------------------------------
+
+
+
+
+
+HTML Elements : 
+---------------
+    ->Both opening tag and closing and content together is called as HTML Elements 
+    ->Ex: 
+        <h1>  HELLO   </h1>
+
+
+    Types: 
+        1. Block Level Elements 
+            ->Any Elements which will consumes enter browser width 
+            ->Ex: all Heading tags , sematic tags , p, div.. 
+
+        2. Inline Level Elements
+            ->Any Elements which will consumes only content width 
+            ->Ex: span ,all formatting tags 
+
+
+
+Tags In HTML: 
+---------
+    ->tags are the predefine words which are inclosed with both opening and closing angular brackets
+    ->Ex: <h1>    </h1>
+
+    Types: 
+    -------
+        1. paired tags 
+            ->Any tags having both opening and closing tags 
+            Ex: 
+                i. formatting tags 
+                    1. <b>  </b>
+                    2. <strong> </strong>
+                    3. <i> </i>
+                    4. <em> </em>
+                    5. <sub> </sub> 
+                    6. <sup> </sup> 
+                    7. <mark> </mark>
+                    8. <marquee> </marquee>
+                    9. <u>  </u>
+                    10. <strike> </strike>
+
+                ii . all heading tags 
+                          <h1>heading tag-1</h1>
+                          <h2>heading tag-2</h2>
+                          <h3>heading tag-3</h3>
+                          <h4>heading tag-4</h4>
+                          <h5>heading tag-5</h5>
+                          <h6>heading tag-6</h6>
+
+                iii. others : 
+                        Ex: <p> </p> , sematic tags ( <nav> </nav>, <footer> </footer> ..etc)
+
+        2. unpaired tags / self closing tags 
+            ->unpaired tags contains only opening 
+            ->Ex: <br>  , <hr> , <input> , <col> ..etc
+
+Attributes : 
+------------
+    ->Attributes are the additional information given to the tags 
+    ->Attributes are always in opening tag 
+    ->most of the Attributes are in key and pair 
+    ->All  html Elements contains Attributes
+    EX: 
+        <h1 align="center">  Good Evening  </h1>
+
+
+
+
+List In HTML : 
+-------------
+    ->List are used to display data in ordered or unordered way 
+
+    Types: 
+        1. Ordered List 
+            ->when ever we want to display data in ordered format like numberings , alphabets .romanNo 
+            -><ol> </ol> represent order list
+            -><ol></ol> tags no. of list items (<li></li>)
+
+            Order list Attributes: 
+            ---------------------
+                1. type : 1, a, A, i, I 
+                2. start 
+                3. reserved
+
+
+        2. unOrdered List 
+            ->when ever we want to display data in symbolic format like square , circle, disc  
+            -><ul> </ul> represent unOrdered list
+            -><ul></ul> tags no. of list items (<li></li>)
+            unOrdered list Attributes: 
+            ---------------------
+                1. type : none , disc , circle , square 
+
+        3. Description List /definition List 
+            ->in html to represent Description list <dl></dl>
+            -><dt></dt>  Description terms
+            -><dd></dd>  Description data
+
+       4 . Nested List 
+
+
+Tables :
+-------
+    ->table are the Collection of cells or rows and columns 
+    ->Table Tags : 
+        1. <table> </table>
+        2. <thead> </thead>
+        3. <tbody> </tbody>
+        4. <tfoot> </tfoot>
+        5. <th>  </th>
+        6. <tr> </tr>
+        7. <td> </td>
+        8. <colgroup></colgroup>
+        9. <col>
+
+        table Attributes: 
+            1. border 
+            2. cellspacing
+            3. cellpadding
+            4. bgcolor 
+            5. align 
+
+
+        td/th Attributes: 
+            1. rowspan 
+            2. colspan
+            3. align
+            4. bgcolor
+
+
+
+Forms In HTML : 
+---------------
+    ->Form are used to Collect user information digitally
+    ->Form tags: 
+        1. <form> </form>
+        2. <fieldset> </fieldset>   -> it Present area of the form / border of the form 
+        3. <legend> </legend>       ->form Description
+        4. <label> </label>         ->to label the input 
+        5. <input/>                 ->used to Collect input form user (fixed sized )
+        6. <textarea> </textarea>   ->used to Collect input form user (flexible input box)
+        7. <select> </select>       ->
+        8. <option></option>
+        9. <button></button>
+
+
+Input Type values : 
+--------------------
+    1. text
+    2. number
+    3. tel 
+    4. radio 
+    5. range 
+    6. checkbox 
+    7. button 
+    8. submit 
+    9. reset 
+    10. url 
+    11. search 
+    12. file 
+    13. date 
+    14. datetime 
+    15. datetime-local
+    16. week 
+    18. month
+    19. color 
+    20. image 
+
+
+Input Attributes // Input validators Attributes: 
+------------------------------------------------
+    1. required 
+    2. placeholder 
+    3. type 
+    4. name 
+    5. id
+    6. value 
+    7. pattern 
+    8. accept 
+    9. min 
+    10. max 
+    11. maxlength
+    12. minlength
+
+
+Media tags : 
+-----------
+    Media tags Like 
+     1. img : image 
+        -> <img/> used to display images in web page 
+        -><img/> tag Attributes 
+            1. src 
+            2. alt 
+            3. height 
+            4. width 
+
+    2. video 
+        -><video></video> tag are used to display videos in web page 
+        
+
+
+sematic tags : 
+--------------
+    ->sematic are introduced in the version HTML 5 
+    ->by using sematic tags we can impure code readability
+    Ex: 
+        1. <nav></nav>
+        2. <main></main>
+        3. <section></section>
+        4. <header></header>
+        5. <footer></footer>
+        6. <details></details>
+        7. <article></article>
+        8. <aside></aside>
+        9. <strong></strong>
+        10. <em></em>
+
+
+
+
+
+
+CSS selectors : 
+------------------
+    ->CSS selectors are used to target the HTML Elements 
+    ->CSS are required only for internal and external Stylings 
+
+    ->Types: 
+        1. Simple CSS Selectors
+        2. Combinator CSS Selectors
+        3. Pseudo Class Selectors
+        4. Pseudo Elements Selectors
+        5. Attributes Selectors
+
+
+
+Text Properties : 
+-----------------
+    1. color 
+    2. text decoration Properties 
+            i. text-decoration-line 
+            ii. text-decoration-style 
+            iii. text-decoration-color 
+            iv .text-decoration-thickness
+            v. text-decoration       (short hand form)
+
+
+    3. text-align 
+    4. text-transform Properties
+    5. text overflow Properties 
+
+
+CSS Box model : 
+----------------
+    1. Padding 
+    2. border 
+    3. margin 
+
+
+Flex Properties : 
+-----------------
+    1. display :flex 
+    2. justify-content 
+    3. align-items 
+    4. flex-direction 
+    5. flex-warp
+
+    6. flex-grow 
+    7. flex-shrink
+    8. flex
+
+
+Grid Properties: 
+---------------
+
+
+
+Responsive web designing : 
+--------------------------
+    ->designing web pages based device width (view port )
+    ->laptop , tablet , mobile 
+
+    break point 
+        1. smaller devices   (width < 430px)
+        2. medium devices   (width 430px - 800px)
+        3. large devices    (width 800px -1200px)
+        4. extra large devices (width >1200px)
+
+
+    Media query : 
+           @media screen and (min-width:412px) and (max-width:800px) {}
+
+
+
+Animations : 
+------------
+    ->@keyframes 
+
+
+
+
+
+Java Script : 
+----------- 
+    ->Java Script is the scripting language as well as programming language
+
+    USE : 
+    -----
+        ->using JS we can build dynamic web Applications
+        ->and also we add DOM (Document object model) functionality
+        ->Using JS we can fetch data from server and we can send data to server 
+    
+
+    -> ES1 (ECMA Script)
+    -> present version of JS is ES15 
+
+
+implementation of JS 
+--------------------
+    1. internal Js 
+    2. Inline JS 
+    3. External 
+
+
+Tokens: 
+----------
+    ->Tokens smallest  units in Javascript code 
+    Types: 
+        1. identifiers
+            ->identifiers are names given to the code 
+            Ex: variable names , class names , method/function names 
+            ->in place of identifiers we can not use keywords
+
+
+        2. keywords 
+                ->keywords are the predefine reserved words 
+                ->in Js total 66 keywords are there 
+
+        3. literals
+            ->literals are the values given to code 
+            Types: 
+                1. Numeric literals 
+                2. String literals
+
+        4. operators 
+            ->operators are the symbols used to perform some operations on operands 
+            ->Ex: 10 +20 
+
+            Types : 
+            --------
+                1. Arithmetic operators  (+ ,- ,/ ,% ,** , *)
+                2. Assignment operators (=, += ,-= , /= ,*=, %=)
+                3. Relational operators (>,>= ,< ,<=)
+                4. comparison operators (==, === , !=)
+                5. logical operators (&& ,|| , !)
+                6. bitwise operators (&, |, ^)
+                7. shift operators (>>,<<)
+                9. unary operators (++ ,--)
+                10. ternary operators (condition ? statement1 : statement2)
+
+
+
+
+        5. separators 
+            ->separators are used to separate the give code 
+                Ex: () ,{} ,[] ,<> , , , . , ; , : , "" ,'' , ``, 
+
+        6. comments 
+            ->comments are used to comment the given code 
+            Types: 
+               1. single line comments   // 
+               2. Multi line comments   /* 
+                                                */
+
+
+
+Variables : 
+------------
+    ->Variables are the named memory location used to store data/values and it can change N no. during execution
+  
+   operations Variables 👍 
+    1. variable declaration 
+    2. variable initialization 
+    3. variable utilization 
+    4. variable Re-initialization 
+    5. variable Re-declaration 
+
+Types : 
+    1. let 
+    2. var 
+    3. const 
+
+
+Data Types: 
+--------------
+    ->DataTypes represents what type of data we are storing on that variable 
+
+    Types: 
+        1. Primitive DataTypes 
+            i. number 
+            ii. boolean 
+            iii. string 
+            iv . null 
+            v. bigInt 
+            vi .undefine
+            vii.symbol 
+
+        2. Primitive DataTypes
+            i .Arrays 
+                ->Arrays are the linear data structures are used to store Collection homogenous or heterogenous data 
+            
+                Arrays Inbuilt Functions : 
+                ----------------------------
+                    
+            ii. Functions 
+                ->Functions are block of statements which will get execute when where it is called 
+                ->by  using functions we can achieve code reusability 
+
+                Types: 
+                    1.user functions 
+                        ->Any functions which is declared by user or programmer as per there requirement
+                        
+
+                    2. predefine functions 
+                        ->predefine function are the inbuilt functions present in  javascript 
+                        Ex: 
+                            log() , table() , pop() , alert() , confirm() ..etc
+
+            Types: 
+                1. normal function 
+                2. functional expression
+                3. immediate invoking function/self calling function
+                4. Arrow function   ( ES 6) 
+                5. Nested function
+                6. higher order function
+                7. callback function
+
+
+            iii.Objects
+                ->Objects are the real entity's which is used to store data in the form key and value pair 
+
+                Syntax: 
+                    {
+                        key1:value1 ,
+                        key2:value2
+                    }
